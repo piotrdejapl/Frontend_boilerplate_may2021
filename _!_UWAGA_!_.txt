@@ -1,0 +1,5 @@
+Uwaga:
+
+Ze względu na duży rozmiar pakietu 'node-sass' tj. ponad 440MB -> 
+musisz zainstalować node-sass manualnie:
+npm install node-sass --save-dev

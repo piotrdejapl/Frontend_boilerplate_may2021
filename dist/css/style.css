@@ -1,0 +1,37 @@
+img {
+  width: 100%;
+  height: auto; }
+
+body {
+  background: #fff; }
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 30px;
+  margin: 0 auto; }
+  @media (max-width: 991px) {
+    .container {
+      max-width: 600px; } }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap; }
+  .flex--2equal-gap {
+    gap: 2%; }
+  .flex--3equal-gap {
+    gap: 2%; }
+
+.flex-2equal-item {
+  width: 49%; }
+  @media (max-width: 991px) {
+    .flex-2equal-item {
+      width: 100%; } }
+
+.flex-3equal-item {
+  width: 32%; }
+  @media (max-width: 991px) {
+    .flex-3equal-item {
+      width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+
+
+// ----------- Breakpoints  ----------- //
+
+// breakpoint variables : you can add more as necessary
+// we'll go mobile first as much as possible.
+
+$breakpointSmall: 991px;
+$breakpointLarge: 992px;
+
+
+@mixin mobile {
+  @media (max-width: $breakpointSmall) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $breakpointLarge) {
+    @content;
+  }
+}

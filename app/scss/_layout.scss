@@ -1,0 +1,39 @@
+
+
+
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 30px;
+    margin: 0 auto;
+    @include mobile {
+        max-width: 600px;
+    }
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    &--2equal-gap {
+        gap: 2%;
+    }
+    &--3equal-gap {
+        gap: 2%;
+    }    
+}
+
+.flex-2equal-item {
+    width: 49%;
+    @include mobile {
+        width: 100%;
+    }
+}
+
+.flex-3equal-item {
+    width: 32%;
+    @include mobile {
+        width: 100%;
+    }
+}
